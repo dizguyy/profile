@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* I used this to set everything on the site in the middle. */ 
  body{
    padding: 0;
    margin: 0;
@@ -16,7 +16,7 @@ img{
 height:400px;
 width:500px;
 }
-
+/* I'm using four different fonts for the site.*/
 h1{
   margin:0;
   padding-bottom: 30px;
@@ -37,7 +37,7 @@ font-size: x-large;
 p, li, a{
   font-family: 'Source Code Pro', monospace;
 }
-
+/* I made the hr this color to match the red on the images body */
 hr{
   border: 2px solid red;
   margin: 0;
@@ -71,8 +71,12 @@ a:visited{
 }
 
 
-
+/* I used this to remove the bullet points. */
 ul > li{
   list-style-type: none;
 }
+ 
+ol {
+  list-style-position: inside;
+} 
 
